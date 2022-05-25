@@ -11,7 +11,7 @@ public class DbUtil {
 	public static Connection getDbConnection()
 	{
 	    try {
-		      connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "prowingsuser", "prowingsuser");
+		      connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "1234");
 		      System.out.println("SQL Connection to database established!");
 		    } catch (SQLException e) {
 		      System.out.println("Connection Failed! Check output console");
